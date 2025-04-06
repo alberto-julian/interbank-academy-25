@@ -18,7 +18,7 @@ El **objetivo** de esta iniciativa es demostrar nuestro conocimiento en **progra
 ## 3. MODELADO
 ### 3.0. INSTALACIÓN PREVIA
 #### 3.0.1 En Terminal:
->.[!TIP].
+> [!TIP]
 > Si deseas realizar la manipulación de la aplicación sin afectar el resto de tus proyectos podrías inicializar un entorno virtual introduciendo en la terminal:<br><br>
 > **python -m venv venv**<br><br> 
 > Si deseas activarlo:<br><br>
@@ -55,7 +55,7 @@ Al desconocer la data y la cantidad de funciones que requeriría el proyecto, se
 - Luego, procedemos a definir las primeras líneas de comando:
 - A continuación, requerimos que podamos visualizar la data y para ello, creamos nuestras primeras líneas de comando, empezando por el nombre del grupo con el comando **@library.click.group**: **trans()**
 
-> .[!IMPORTANT].
+> [!IMPORTANT]
 > Al utilizar un módulo para almacenar todas nuestras librerías y funciones, para hacer su llamado se tiene que iniciar con el apartado: **library.__NombreFuncion__**
 - Dentro de este grupo, definimos la línea de comando: **mostrar_transacciones()** y para la estructura, se hará uso de la función **library.tabulate()**
   - Al terminar este detalle, si en la terminal se escribe: 
@@ -69,7 +69,7 @@ Al desconocer la data y la cantidad de funciones que requeriría el proyecto, se
   - v_monto_max: Para el mayor monto de las transacciones (Tipo de dato: Float)
   - v_id_trans: Para capturar el *ID* de la transacción con mayor monto (Tipo de dato: Entero)
 
-> .[!WARNING].
+> [!WARNING]
 > Es importante que antes de continuar, entiendas que toda la secuencia de códigos trabaja bajo una misma estructura de **data.csv**, que es el archivo que almacena todas las transacciones y su información.
 
 - La lógica para obtener las variables requeridas, sería un **for** para recorrer cada una de las filas mientras se van sumando y restando los montos de crédito y restando los montos de débito. <br> Cabe mencionar, que la lógica puede modificarse como disgregar la función para cada variable para evitar que se recorra todas las filas del archivo en el cálculo de las 4 variables.
