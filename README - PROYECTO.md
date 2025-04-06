@@ -84,3 +84,5 @@ Al desconocer la data y la cantidad de funciones que requeriría el proyecto, se
 Podemos concluir que el uso de CLI puede facilitar el acceso a instrucciones en altos volumenes de datos sin tanta necesidad de un diseño GUI.
 Así mismo, el conjunto de instrucciones puede disgregarse en mayor medida para optimizar el consumo computacional que tiene las líneas de comando en sí.
 Si están iniciando en programación, les recomiendo iniciar a explorar estos conceptos porque podrían acelerar ciertas actividades en los reportes o actividades diarios en su trabajo o en su día a día.
+
+> **"Si puedes imaginarlo, puedes programarlo"**
