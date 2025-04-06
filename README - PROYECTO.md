@@ -1,4 +1,4 @@
-> .[!NOTE].
+> [!NOTE]
 > Esta es una elaboración principalmente académica
 
 # Reto Técnico: Procesamiento de Transacciones Bancarias (CLI)
